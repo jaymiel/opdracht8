@@ -19,6 +19,11 @@ const  x = fetch(`https://backendcities.herokuapp.com/?cuid=hajIUIksk983LLP11112
 
 
 
+const a = document.createElement('a');
+const node = document.createTextNode("Vorige");
+a.appendChild(node);
+const e = document.getElementById("div");
+a.href = `?p=${p++}`;
 
 // const btn = document.getElementById('btn').addEventListener('click', function () {
 //    // for (p = 1; p )
